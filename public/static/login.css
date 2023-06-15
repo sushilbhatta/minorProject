@@ -19,49 +19,76 @@ html,body,main{
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  background-color: rgb(245, 245, 245,0.8);
+  border-radius: 20px;
 
 }
 
 .login-title{
-  width:260px;
+  width:360px;
   margin:10px 0px ;
   font-weight: 400;
   font-size: 32px;
 }
 
 .form{
-width:260px;
+width:360px;
 }
 .form-item{
   margin:20px 0px;
-  width: 260px;
+  width: 360px;
+  position: relative;
 }
+
+
 .form-item input{
-  width: 95%;
+  background-color: rgb(245, 245, 245,0.8);;
+  width: 90%;
   padding: 8px;
+  vertical-align: center;
+  color:gray ;
+  font-weight: 200;
+  font-size: 20px;
   border-width: 0 0 2px 0;
 }
+.form-item input:focus{
+ outline: none;
+}
+input.checkbox{
+display: inline-block;
 
+width: 30px;
+height:18px ;
+padding:12px 0px;
+margin: 0;
+accent-color:rgb(139,97,233) ;
+}
+.form-item label{
+  color:#808080 ;
+  width: 35%;
+  height:18px ;
+  margin: 5px;
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 18px;
+  position: absolute; 
+  bottom: 3px;  
+}
 
+.btn{
+  width: 360px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  background-color:rgb(139,97,233);
+  border:0px;
+  border-radius: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.btn:focus,.btn:hover{
+  background-color: #737DEE;
+}
 .login-form__image{
   width: 500px;
   height:500px;
