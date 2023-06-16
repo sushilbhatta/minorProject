@@ -1,7 +1,7 @@
 
 
 #product-overview {
-    background: url("../../images/pexels-tara-winstead-8386334.jpg") left 10% bottom 75%/cover no-repeat border-box;
+    background: url("../../images/old-buildings-gardens-nesebar-bulgaria.jpg") left 10% bottom 75%/cover no-repeat border-box;
     width: 100%;
     height: 528px;
     padding: 10px;  
@@ -24,8 +24,7 @@
 
 
 #key-features {
-    background: #ff1b68;
-    margin-top: 80px;
+    background: wheat;
     padding: 16px;
 }
 
