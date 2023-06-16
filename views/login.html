@@ -15,12 +15,12 @@
 </head>
 
 <body>
-    <main class="login-form">
-        <section class="login-form__content">
-            <div class="login-title">
+    <main class="login">
+        <section class="login-content">
+            <div class="login-content__title">
             Login to Predicta
             </div>
-            <form action="" class="form">
+            <form action="" class="login-content__form">
                     <div class="form-item">
                         <input type="text" name="username" id="username" placeholder="Username">
                     </div>
@@ -32,8 +32,11 @@
                     </div>
                     <button class="btn" type="submit">Log in</button>
             </form>
+            <div class="login-content__error">
+                <p class="login-content__error--text">Didn't have one?<a href="./signup.html">Signup</a></p>
+            </div>
         </section>
-        <section class="login-form__image">
+        <section class="login-image">
         <img src="../images/login_image.png" alt="login">
         </section>
     </main>

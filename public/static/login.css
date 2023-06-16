@@ -4,14 +4,14 @@ html,body,main{
   font-family: 'Open Sans',sans-serif;
   
 }
-.login-form{
+.login{
   height: 100%;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
 }
-.login-form__content{
+.login-content{
   width:500px;
   height:500px;
   display: flex;
@@ -24,18 +24,18 @@ html,body,main{
 
 }
 
-.login-title{
+.login-content__title{
   width:360px;
   margin:10px 0px ;
   font-weight: 400;
   font-size: 32px;
 }
 
-.form{
+.login-content__form{
 width:360px;
 }
 .form-item{
-  margin:20px 0px;
+  margin:25px 0px;
   width: 360px;
   position: relative;
 }
@@ -56,7 +56,6 @@ width:360px;
 }
 input.checkbox{
 display: inline-block;
-
 width: 30px;
 height:18px ;
 padding:12px 0px;
@@ -89,11 +88,28 @@ accent-color:rgb(139,97,233) ;
 .btn:focus,.btn:hover{
   background-color: #737DEE;
 }
-.login-form__image{
+.login-content__error{
+  /* display: none; */
+  font-size: 18px;
+  width: 360px;
+  margin: 10px 0;
+  color: #808080;
+
+}
+.login-content__error--text{
+  margin: 5px 0;
+}
+.login-content__error--text a{
+  margin:5px;
+  text-decoration: none;
+  color:rgb(54, 26, 114) ;
+  
+}
+.login-image{
   width: 500px;
   height:500px;
 }
-.login-form__image img{
+.login-image img{
  width:100%;
  height:100%;
 }
