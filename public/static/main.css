@@ -41,8 +41,10 @@ p.product-description{
 }
 
 #key-features .section-title {
-    color: white;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.9);
     margin: 32px;
+    font-weight: 500;
 }
 
 .key-feature__list {
@@ -56,21 +58,28 @@ p.product-description{
     display: inline-block;
     width: 30%;
     vertical-align: top;
+    position: relative;
 }
 
 .key-feature__image {
-    background: #ffcede;
-    width: 128px;
-    height: 128px;
-    border: 2px solid #424242;
-    border-radius: 50%;
+    background:lightgray;
+    width: 228px;
+    height: 228px;
+    border-radius: 25px;
     margin: auto;
 }
 
 .key-feature__description {
+    background-color: white;
+    padding: 0px 20px;
+    position: absolute;
+    left: 34.5%;
+    top: 92%;
     text-align: center;
-    font-weight: bold;
-    color: white;
+    font-weight: 200;
+    color: crimson;
     font-size: 20px;
+    border:1px;
+    border-radius: 4px;
 }
 
