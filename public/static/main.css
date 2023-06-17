@@ -86,49 +86,91 @@ p.product-description{
 }
 
   
-
+/*                  product detail */
 
 #product-detail{
+
     background-color:white;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 120px;
 }
 .product-detail__explaination{
-    width: 40%;
+    width: 50%;
+    padding-left:30px;
+    padding-top:30px
     
 }
 .product-detail__explaination h2{
-    margin:10px 20px; 
+    
+    padding:10px; 
     text-align: center;
     font-size: 40px;
     font-weight: 400;
-
 }
+
 .product-detail__explaination h3{
-    margin: 0 20px;
+    padding: 0 20px;
     font-size: 30px;
     font-weight: 500;
 }
 
 .product-detail__explaination p{
-    font-size: 24px;
+    margin: 0;
+    font-size: 22px;
     font-weight: 200;
-    margin: 10px 20px;
+    padding: 4px 20px;
 }
-
-
-
-
-
 
 .product-detail__img {
-   width: 50%;
-   height: 50%;
+   width:550px;
+   height: 550px;
+  
 }
+
 .product-detail__img img{
+    width:100%;
+    height:100%;
+
+}
+
+/* price_prediction */
+#price-priediction{
+    margin-top: 120px;
+    padding-top: 30px;
+    position: relative;
+}
+.price-priediction__background{
+    background: url('../../images/3d-background-with-white-cubes.jpg') left 10% bottom 30%/cover no-repeat border-box;
     width: 100%;
-    height: 100%;
+    height: 450px;
+    opacity: 0.3;
+    filter: brightness(45%);
+
+}
+.price-priediction__title{
+    font-size: 30px;
+    text-align: center;
+   
+}
+.price-priediction__content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position:absolute;
+   top: 48%;
+   left:26%
+
+}
+.price-priediction__content button{
+    padding:16px;
+    font-size: 22px;
+    background-color:#00DFA2;
+    width: 260px;
+    height: 60px;
+    border-radius: 25px;
+    border:none;
 }
