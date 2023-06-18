@@ -167,6 +167,7 @@ p.product-description{
 }
 .price-priediction__content button{
     padding:16px;
+    text-align: center;
     font-size: 22px;
     background-color:#00DFA2;
     width: 260px;
