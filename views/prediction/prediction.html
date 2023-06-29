@@ -1,89 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Make Prediction</title>
     <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- css -->
-    <link rel="stylesheet" href="../../public/static/shared.css">
-    <link rel="stylesheet" href="../../public/static/prediction.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../../public/static/shared.css" />
+    <link rel="stylesheet" href="../../public/static/prediction.css" />
+  </head>
+  <body>
     <header class="main-header">
-        <div>
-            <img src="../../images/main_header_logo.jpg" class="main-header__logo" alt="main-logo"><a href="../index.html" class="main-header__brand">Predicta</a> 
-        </div>
-        <nav class="main-nav">
-            <ul class="main-nav__items">
-                <li class="main-nav__item">
-                    <a href="../index.html">Home</a>
-                </li>
-                <li class="main-nav__item">
-                    <a href="../about/About.html">About us</a>
-                </li>
-                <li class="main-nav__item">
-                    <a href="./prediction.html">Predict Now</a>
-                </li>
-                <li class="main-nav__item">
-                    <a href="../contract_us/contract.html">Contract us</a>
-                </li>
-                <li class="main-nav__item main-nav__item--cta">
-                    <a href="../login/login.html">Login</a>
-                </li>
-            </ul>
-        </nav>
+      <div>
+        <img
+          src="../../images/main_header_logo.jpg"
+          class="main-header__logo"
+          alt="main-logo"
+        /><a href="../index.html" class="main-header__brand">Predicta</a>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav__items">
+          <li class="main-nav__item">
+            <a href="../index.html">Home</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="../about/About.html">About us</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="./prediction.html">Predict Now</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="../contract_us/contract.html">Contract us</a>
+          </li>
+          <li class="main-nav__item main-nav__item--cta">
+            <a href="../login/login.html">Login</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main id="make-prediction">
-        <div class="make-prediction__title">
+      <div class="make-prediction__title">
         <h1>Provide Information for your Dream House</h1>
-    </div>
-        <form action="" class="form-items">
+      </div>
+      <form action="" class="form-items">
+        <div class="form-item">
+          <input type="text" placeholder="Location of House" id="address" />
+        </div>
 
-            <div class="form-item">
-                <input type="number" id="area" placeholder="property size (meter)">
-                
-            </div>
-            <div class="form-item">
-                <input type="number" placeholder="No of bedrooms" id="bedroom">
-            </div>
+        <div class="form-item">
+          <input type="number" placeholder="No of bedrooms" id="bedroom" />
+        </div>
 
-            <div class="form-item">
-                 <input type="text" placeholder="city" id="city">
-            </div>
+        <div class="form-item">
+          <input type="text" placeholder="city" id="city" />
+        </div>
 
-            <div class="form-item">
-                <input type="number" placeholder="No of floors" id="floors">
-            </div>
-            <div class="form-item">
-                
-                <input type="number" placeholder="Required age of house" id="age">
-            </div>
-            <div class="form-item">
-                <input type="text" placeholder="Location of House" id="address"> 
-            </div>
-            <div class="form-item checkbox">
-                <input type="checkbox" id="parking"> 
-                <label for="parking">Include Parking</label>
-            </div>
-            
-          
-        </form>
+        <div class="form-item">
+          <input type="number" placeholder="No of floors" id="floors" />
+        </div>
+        <div class="form-item">
+          <input type="number" placeholder="No of Bathroom" id="age" />
+        </div>
+
+        <div class="form-item checkbox">
+          <input type="checkbox" id="parking" />
+          <label for="parking">Include Parking</label>
+        </div>
+      </form>
     </main>
     <footer class="main-footer">
-        <nav>
-            <ul class="main-footer__links">
-                <li class="main-footer__link">
-                    <a href="#">Support</a>
-                </li>
-                <li class="main-footer__link">
-                    <a href="#">Terms of Use</a>
-                </li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="#">Support</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="#">Terms of Use</a>
+          </li>
+        </ul>
+      </nav>
     </footer>
-</body>
+  </body>
 </html>
