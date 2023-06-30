@@ -71,8 +71,27 @@ accent-color:rgb(139,97,233) ;
   font-weight: 400;
   font-size: 18px;
   position: absolute; 
-  bottom: 3px;  
+  bottom: 14px;  
 }
+
+.form-item input:focus {
+  outline: 0;
+}
+
+.form-item.success input {
+  border-color: #09c372;
+}
+
+.form-item.error input {
+  border-color: #ff3860;
+}
+
+.form-item .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
+
 
 .btn{
   width: 360px;

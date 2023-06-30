@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../../public/static/login.css">
     
 
-    <script src="../login.js" defer></script>
+    <script src="./login.js" defer></script>
 
 </head>
 
@@ -20,15 +20,18 @@
             <div class="login-content__title">
             Login to Predicta
             </div>
-            <form action="" class="login-content__form">
+            <form action="" class="login-content__form" id="form">
                     <div class="form-item">
                         <input type="text" name="username" id="username" placeholder="Username">
+                        <div class="error"></div>
                     </div>
                     <div class="form-item">
                         <input type="password" name="password" id="password" placeholder="password">
+                        <div class="error"></div>
                     </div>
                     <div class="form-item" >
-                        <input type="checkbox" class="checkbox" name="remember" id="remember" ><label for="remember">Remember Me</label>
+                        <input type="checkbox" class="checkbox"  name="remember" id="remember" ><label for="remember">Remember Me</label>
+                        <div class="error"></div>
                     </div>
                     <button class="btn" type="submit">Log in</button>
             </form>
