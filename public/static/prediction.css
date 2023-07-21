@@ -55,3 +55,18 @@ transform: scale(deg(1));
   
     
 }
+
+.btn{
+    margin: 10px 300px;
+padding:10px;
+text-align: center;
+font-size: 18px;
+background-color:#00DFA2;
+width: 260px;
+height: 60px;
+border-radius: 25px;
+border:none;
+}
+.btn:hover,.btn:active{
+    background-color: aliceblue;
+}

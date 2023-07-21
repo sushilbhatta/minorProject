@@ -16,6 +16,9 @@ body {
     padding: 20px 16px;
     z-index:1;
     border-bottom: 0.1px solid gray;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
 }
 
@@ -38,13 +41,20 @@ body {
 }
 
 .main-nav {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
     text-align: right;
     width: calc(100% - 189px);
     vertical-align: middle;
 }
 
 .main-nav__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
     margin: 0;
     padding: 0;
     list-style: none;
