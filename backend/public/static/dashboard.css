@@ -60,33 +60,9 @@
     justify-content: center;
     }
     
-    .searchbar2 {
-    display: none;
-    }
     
     .logosec {
     gap: 60px;
-    }
-    
-    .searchbar input {
-    width: 250px;
-    height: 42px;
-    border-radius: 50px 0 0 50px;
-    background-color: var(--background-color3);
-    padding: 0 20px;
-    font-size: 15px;
-    outline: none;
-    border: none;
-    }
-    .searchbtn {
-    width: 50px;
-    height: 42px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0px 50px 50px 0px;
-    background-color: var(--secondary-color);
-    cursor: pointer;
     }
     
     .message {
@@ -340,4 +316,51 @@
     color: white;
     border-radius: 4px;
     }
+    .modal{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+        left: 50%;
+        z-index: 1000;
+        width: 250px;
+        height: 100px;
+        background-color: grey;
+        opacity: 80%;
+        color: white;
+        border-radius: 12px;
+        
+        
+    }
+    .modal h3,.modal p,.btns{
+        padding:4px 9px 0 9px;
+    }
+  .btns{
     
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .btns button{
+    margin: 10px;
+    padding: 0 20px;
+    border-radius: 10px;
+
+  }
+  .btns button:hover,.btns button:active,.btns button:focus{
+    background-color: gray;
+    color:white;
+  }
+.logout-btn{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    border: none;
+}
