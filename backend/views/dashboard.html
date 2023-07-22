@@ -10,6 +10,8 @@
 				initial-scale=1.0">
 	<title>Admin-Dash-Board</title>
 	<script src="./dash.js" defer></script>
+	<!-- font awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 	<style>
 		.hide{
 			display: none;
@@ -101,9 +103,7 @@
 						<h2 class="topic">Users</h2>
 					</div>
 						<!-- change the views icon to users icon front fontAwesome -->
-					<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20221210184645/Untitled-design-(31).png"
-						alt="Views">
+						<i class="fa-solid fa-users fa-2xl"></i>
 				</div>
 			</div>
 
@@ -111,6 +111,7 @@
 				<div class="report-header">
 					<!-- get the newest user at the top of the tabel -->
 					<h1 class="recent-Articles">Recent Users</h1>
+					<!-- view all the user that are logged in. -->
 					<button class="view">View All</button>
 				</div>
 
@@ -118,9 +119,9 @@
 					<div class="report-topic-heading">
 						<h3 class="t-op">SN</h3>
 						<h3 class="t-op">User Name</h3>
-						<h3 class="t-op">E-mail</h3>
+						<h3 class="t-op email">E-mail</h3>
 						<!-- The issues here represent the Integer value that the particular user has posted from contact us page -->
-						<h3 class="t-op">Issues</h3>
+						<h3 class="t-op issues">Issues</h3>
 						<h3 class="t-op">No of prediction</h3>
 						<!-- has make predicted or not -->
 						<h3 class="t-op">Status</h3>
@@ -128,7 +129,7 @@
 
 					<div class="items">
 						<div class="item1">
-							<h3 class="t-op-nextlvl">1</h3>
+							<h3 class="t-op-nextlvl sn">1</h3>
 							<h3 class="t-op-nextlvl">ram</h3>
 							<h3 class="t-op-nextlvl">ram123@gmail.com</h3>
 							<h3 class="t-op-nextlvl one">5</h3>
@@ -137,8 +138,8 @@
 						</div>
 
 						<div class="item1">
-							<h3 class="t-op-nextlvl">2</h3>
-							<h3 class="t-op-nextlvl">Marlena</h3>
+							<h3 class="t-op-nextlvl sn">2</h3>
+							<h3 class="t-op-nextlvl">Marlena</h3> 
 							<h3 class="t-op-nextlvl">marlena@gmail.com</h3>
 							<h3 class="t-op-nextlvl one">0</h3>
 							<h3 class="t-op-nextlvl two">2</h3>
@@ -146,7 +147,7 @@
 						</div>
 
 						<div class="item1">
-							<h3 class="t-op-nextlvl">3</h3>
+							<h3 class="t-op-nextlvl sn">3</h3>
 							<h3 class="t-op-nextlvl">Gita</h3>
 							<h3 class="t-op-nextlvl">gita@gmail.com</h3>
 							<h3 class="t-op-nextlvl one">8</h3>
@@ -156,7 +157,7 @@
 
 
 						<div class="item1">
-							<h3 class="t-op-nextlvl">4</h3>
+							<h3 class="t-op-nextlvl sn">4</h3>
 							<h3 class="t-op-nextlvl">ram</h3>
 							<h3 class="t-op-nextlvl">sita5@gmail.com</h3>
 							<h3 class="t-op-nextlvl one">55</h3>
@@ -166,7 +167,7 @@
 
 
 						<div class="item1">
-							<h3 class="t-op-nextlvl">5</h3>
+							<h3 class="t-op-nextlvl sn">5</h3>
 							<h3 class="t-op-nextlvl">hari</h3>
 							<h3 class="t-op-nextlvl">hari77@gmail.com</h3>
 							<h3 class="t-op-nextlvl one">2</h3>
@@ -175,14 +176,13 @@
 						</div>
 
 						<div class="item1">
-							<h3 class="t-op-nextlvl">6</h3>
+							<h3 class="t-op-nextlvl sn">6</h3>
 							<h3 class="t-op-nextlvl">shyam</h3>
 							<h3 class="t-op-nextlvl">shyam5@gmail.com</h3>
 							<h3 class="t-op-nextlvl one">7</h3>
 							<h3 class="t-op-nextlvl two">56</h3>
 							<h3 class="t-op-nextlvl label-tag">predicted</h3>
 						</div>
-
 
 					</div>
 				</div>
